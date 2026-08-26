@@ -1,0 +1,24 @@
+name: todo_monorepo
+
+packages:
+  - apps/todo
+  - packages/todo_package
+
+scripts:
+  get:
+    run: melos exec -- "flutter pub get"
+
+  analyze:
+    run: melos exec -- "flutter analyze"
+
+  test:
+    run: melos exec -- "flutter test"
+
+  format:
+    run: melos exec -- "dart format ."
+
+  clean:
+    run: melos exec -- "flutter clean"
+
+  build:
+    run: melos exec -- "flutter build apk"
