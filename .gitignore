@@ -1,0 +1,23 @@
+# Dart / Flutter
+.dart_tool/
+.packages
+.pub/
+build/
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# Flutter generated files
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Android
+android/.gradle/
+android/local.properties
+
+# macOS
+.DS_Store
